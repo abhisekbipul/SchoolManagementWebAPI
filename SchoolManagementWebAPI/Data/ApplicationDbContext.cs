@@ -10,5 +10,7 @@ namespace SchoolManagementWebAPI.Data
         
         public DbSet<Event> Events { get; set; }
         public DbSet<AcademicCalendar> AcademicCalendars { get; set; }
+
+        public DbSet<User> Users { get; set; }
     }
 }

@@ -7,6 +7,6 @@
         public string Description { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public bool IsAcademic { get; set; }  // True for academic events, false for others
+        public bool IsAcademic { get; set; }  
     }
 }
